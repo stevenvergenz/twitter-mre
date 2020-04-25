@@ -1,0 +1,28 @@
+{
+  "name": "twitter-mre",
+  "version": "1.0.0",
+  "description": "Display tweets in Altspace",
+  "main": "built/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"debug": "node --nolazy --inspect-brk=9229 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenvergenz/twitter-mre.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenvergenz/twitter-mre/issues"
+  },
+  "homepage": "https://github.com/stevenvergenz/twitter-mre#readme",
+  "dependencies": {
+    "@microsoft/mixed-reality-extension-sdk": "^0.17.0",
+    "got": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.10",
+    "typescript": "^3.8.3"
+  }
+}

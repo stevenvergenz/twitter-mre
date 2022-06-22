@@ -19,7 +19,7 @@
   "homepage": "https://github.com/stevenvergenz/twitter-mre#readme",
   "dependencies": {
     "@microsoft/mixed-reality-extension-sdk": "^0.17.0",
-    "got": "^11.0.2"
+    "got": "^11.8.5"
   },
   "devDependencies": {
     "@types/got": "^9.6.10",
